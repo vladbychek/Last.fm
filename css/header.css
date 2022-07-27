@@ -16,6 +16,9 @@
     position: absolute;
     background: #333;
 }
+.header__left{
+    display: flex;
+}
 .header__disk{
     width: 58px;
     height: 58px;
@@ -40,6 +43,9 @@
 .header__logo-link{
     padding-top: 16px;
     padding-left: 481px;
+}
+.header__right{
+    display: flex;
 }
 .header__menu{
     display: flex;

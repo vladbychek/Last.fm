@@ -1,0 +1,101 @@
+.interest{
+    width: 1170px;
+    margin: 48px auto;
+}
+.interest__title{
+    padding-bottom: 18px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+}
+.interest__separator{
+    border-bottom: 2px solid rgb(185, 0, 0);
+    width: 50px;
+    margin: 0 auto;
+}
+.interest__blocks{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.interest__blocks__big-blockone{
+    width: 570px;
+    height: 570px;
+    background: linear-gradient( rgba(19,17,20,0), rgba(19,17,20,1)), url(../img/interest/dance.jpg);
+    background-size: cover;
+}
+.interest__blocks__big-blockone__link{
+    width: 570px;
+    height: 220px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Barlow', sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.inte_linkone{
+    text-decoration: none;
+}
+.int_span_linkone{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Barlow', sans-serif;
+}
+.int_span_linkone:hover{
+    text-decoration: underline;
+}
+.interest__blocks__big-blockone__text__smalltitle{
+    color: #C0C0C0;
+}
+.int_span_linktwo{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.interest__blocks__big-blockone__text{
+    padding: 12px 20px 0;
+    line-height: 21px;
+}
+.interest__blocks__big-blockone__text__smalltext{
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+}
+.interest__blocks__big-blockone__like{
+    display: flex;
+    flex-wrap: wrap;
+}
+.like__link{
+    text-decoration: none;
+    display: flex;
+    padding: 30px 100px 0 20px;
+}
+.linkthree{
+    padding-right: 79px !important;
+}
+.like__link:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.like__text{
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.like__img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}

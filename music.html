@@ -6,34 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/48c9ce6632.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/interest.css">
     <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap" rel="stylesheet">
     <title>Музыка | Last.fm</title>
 </head>
 <body>
     <header>
         <div class="header">
             <div class="header__hat"></div>
-            <img class="header__disk" src="img/header_disk.png">
-            <div class="header__btns">
-                <i class="fa-solid fa-backward header__btn"></i>
-                <i class="fa-regular fa-circle-play header__btn2"></i>
-                <i class="fa-solid fa-forward header__btn"></i>
+            <div class="header__left">
+                <img class="header__disk" src="img/header/header_disk.png">
+                <div class="header__btns">
+                    <i class="fa-solid fa-backward header__btn"></i>
+                    <i class="fa-regular fa-circle-play header__btn2"></i>
+                    <i class="fa-solid fa-forward header__btn"></i>
+                </div>
             </div>
-            <a class="header__logo-link"><img class="header__logo" src="img/header-logo.png"></a>
-            <div class="header__menu">
-                <a class="serch"><i class="fa-solid fa-magnifying-glass header__search"></i></a>
-                <a><p class="header__menu__item">Live</p></a>
-                <a><p class="header__menu__item">Музыка</p></a>
-                <a><p class="header__menu__item">Чарты</p></a>
-                <a><p class="header__menu__item">События</p></a>
-                <a><p class="header__menu__item">Избранное</p></a>
-            </div>
-            <div class="header__right-menu">
-                <i class="fa-solid fa-circle header__right-menu__dot"></i>
-                <a><p class="header__right-menu__1link">Вход</p></a>
-                <a><p class="header__right-menu__2link">РЕГИСТРАЦИЯ</p></a>
+            <a class="header__logo-link"><img class="header__logo" src="img/header/header-logo.png"></a>
+            <div class="header__right">
+                <div class="header__menu">
+                    <a class="serch"><i class="fa-solid fa-magnifying-glass header__search"></i></a>
+                    <a><p class="header__menu__item">Live</p></a>
+                    <a><p class="header__menu__item">Музыка</p></a>
+                    <a><p class="header__menu__item">Чарты</p></a>
+                    <a><p class="header__menu__item">События</p></a>
+                    <a><p class="header__menu__item">Избранное</p></a>
+                </div>
+                <div class="header__right-menu">
+                    <i class="fa-solid fa-circle header__right-menu__dot"></i>
+                    <a><p class="header__right-menu__1link">Вход</p></a>
+                    <a><p class="header__right-menu__2link">РЕГИСТРАЦИЯ</p></a>
+                </div>
             </div>
         </div>
     </header>
+    <main>
+        <div class="music-title">
+            <h1 class="music-title__title">Музыка</h1>
+            <div class="music-title__text">
+                <a href="" class="music-title__link1">Обзор</a>
+                <a href="" class="music-title__link2">Новые релизы</a>
+            </div>
+        </div>
+        <div class="interest">
+            <h2 class="interest__title">Интересные теги</h2>
+            <div class="interest__separator"></div>
+            <div class="interest__blocks">
+                <div class="interest__blocks__big-blockone">
+                    <a class="inte_linkone" href=""><p class="interest__blocks__big-blockone__link">Electronic</p></a>
+                    <div class="interest__blocks__big-blockone__text">
+                        <div class="interest__blocks__big-blockone__text__smalltitle">Представляем исполнителя: <span><a class="int_span_linkone" href="">Daft Punk</a></span></div>
+                        <div class="interest__blocks__big-blockone__text__smalltext">Электро́нная му́зыка (от англ. Electronic music, в просторечии также «электроника») — широкий жанр, обозначающий музыку, созданную с использованием эл…<span><a class="int_span_linktwo" href="">подробнее</a></span></div>
+                    </div>
+                    <div class="interest__blocks__big-blockone__like">
+                        <a class="like__link" href=""><img class="like__img" src="img/interest/80s.jpg"><p class="like__text">The Prodigy</p></a>
+                        <a class="like__link" href=""><img class="like__img" src="img/interest/80s.jpg"><p class="like__text">Depeche Mode</p></a>
+                        <a class="like__link linkthree" href=""><img class="like__img" src="img/interest/80s.jpg"><p class="like__text">Massive Attack</p></a>
+                        <a class="like__link" href=""><img class="like__img" src="img/interest/80s.jpg"><p class="like__text">Björk</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
