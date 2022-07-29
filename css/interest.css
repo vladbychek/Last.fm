@@ -1,6 +1,6 @@
 .interest{
     width: 1170px;
-    margin: 48px auto;
+    margin: 53px auto;
 }
 .interest__title{
     padding-bottom: 18px;
@@ -11,7 +11,7 @@
     text-align: center;
 }
 .interest__separator{
-    border-bottom: 2px solid rgb(185, 0, 0);
+    border-bottom: 3px solid rgb(185, 0, 0);
     width: 50px;
     margin: 0 auto;
 }
@@ -26,8 +26,11 @@
     background: linear-gradient( rgba(19,17,20,0), rgba(19,17,20,1)), url(../img/interest/dance.jpg);
     background-size: cover;
 }
+.fon:hover{
+    background-color: rgb(0, 0, 0, 0.1);
+    height: 570px;
+}   
 .interest__blocks__big-blockone__link{
-    width: 570px;
     height: 220px;
     color: white;
     font-size: 24px;
@@ -38,6 +41,9 @@
     padding: 0 20px;
     display: flex;
     flex-direction: column-reverse;
+}
+.interest__blocks__big-blockone__link:hover{
+    text-decoration: underline;
 }
 .inte_linkone{
     text-decoration: none;
@@ -60,6 +66,9 @@
     text-decoration: none;
     font-weight: 700;
 }
+.int_span_linktwo:hover{
+    text-decoration: underline;
+}
 .interest__blocks__big-blockone__text{
     padding: 12px 20px 0;
     line-height: 21px;
@@ -76,10 +85,11 @@
 .like__link{
     text-decoration: none;
     display: flex;
-    padding: 30px 100px 0 20px;
+    margin: 30px 100px 0 20px;
+    box-sizing: content-box;
 }
 .linkthree{
-    padding-right: 79px !important;
+    margin-right: 79px !important;
 }
 .like__link:hover{
     text-decoration: underline;
@@ -98,4 +108,118 @@
     width: 70px;
     height: 70px;
     border-radius: 50px;
+    opacity: 1;
+}
+.like__link:hover{
+    opacity: 0.9;
+}
+.interest__blocks__small-blocks{
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 570px;
+    gap: 30px;
+}
+
+
+
+.interest__blocks__small-block{
+    width: 570px;
+    height: 570px;
+}
+.interest__blocks__small-blocks__block{
+    width: 170px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    color: white;
+    
+}
+.interest__blocks__small-blocks__link{
+    text-decoration: none;  
+}
+.interest__blocks__small-blocks__block:hover{
+    text-decoration: underline;
+    
+}
+.bgimg{
+    background-size:cover;
+    width: 170px;
+    height: 170px
+}
+.blbgone{
+    background-image:
+    linear-gradient(to top, rgba(162, 105, 78, 0.7), rgba(162, 105, 78,0.7)),
+    url(../img/interest/rock.jpg);
+}
+.textblone:hover{
+    background-color: rgb(162, 105, 78, 0.2);
+}
+.blbgtwo{
+    background-image:
+    linear-gradient(to top, rgba(124,118,98, 0.7), rgba(124,118,98,0.7)),
+    url(../img/interest/rap.jpg);
+}
+.textbltwo:hover{
+    background-color: rgb(124, 118, 98, 0.2);
+}
+.blbgthree{
+    background-image:
+    linear-gradient(to top, rgba(18,18,20, 0.7), rgba(18,18,20,0.7)),
+    url(../img/interest/indie.jpg);
+}
+.textblthree:hover{
+    background-color: rgb(18, 18, 20, 0.2);
+}
+.blbgfour{
+    background-image:
+    linear-gradient(to top, rgba(68,68,68, 0.7), rgba(68,68,68,0.7)),
+    url(../img/interest/jazz.jpg);
+}
+.textblfour:hover{
+    background-color: rgb(68, 68, 68, 0.2);
+}
+.blbgfive{
+    background-image:
+    linear-gradient(to top, rgba(168,104,28, 0.7), rgba(168,104,28,0.7)),
+    url(../img/interest/reggae.jpg);
+}
+.textblfive:hover{
+    background-color: rgb(168, 104, 28, 0.2);
+}
+.blbgsix{
+    background-image:
+    linear-gradient(to top, rgba(7,6,13, 0.7), rgba(7,6,13,0.7)),
+    url(../img/interest/british.jpg);
+}
+.textblsix:hover{
+    background-color: rgb(7, 6, 13, 0.2);
+}
+.blbgseven{
+    background-image:
+    linear-gradient(to top, rgba(141,116,0, 0.7), rgba(141,116,0,0.7)),
+    url(../img/interest/punk.jpg);
+}
+.textblseven:hover{
+    background-color: rgb(141,116,0, 0.2);
+}
+.blbgeight{
+    background-image:
+    linear-gradient(to top, rgba(65,70,84, 0.7), rgba(65,70,84,0.7)),
+    url(../img/interest/80s.jpg);
+}
+.textbleight:hover{
+    background-color: rgb(65,70,84, 0.2);
+}
+.blbgnine{
+    background-image:
+    linear-gradient(to top, rgba(0,11,14, 0.7), rgba(0,11,14,0.7)),
+    url(../img/interest/electronic_one.jpg);
+}
+.textblnine:hover{
+    background-color: rgb(0,11,14, 0.2);
 }
