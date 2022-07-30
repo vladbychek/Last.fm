@@ -31,7 +31,7 @@
     height: 570px;
 }   
 .interest__blocks__big-blockone__link{
-    height: 220px;
+    height: 270px;
     color: white;
     font-size: 24px;
     font-family: 'Barlow', sans-serif;
@@ -70,7 +70,7 @@
     text-decoration: underline;
 }
 .interest__blocks__big-blockone__text{
-    padding: 12px 20px 0;
+    padding: 5px 20px 0;
     line-height: 21px;
 }
 .interest__blocks__big-blockone__text__smalltext{
@@ -85,7 +85,7 @@
 .like__link{
     text-decoration: none;
     display: flex;
-    margin: 30px 100px 0 20px;
+    margin: 25px 100px 0 20px;
     box-sizing: content-box;
 }
 .linkthree{
@@ -222,4 +222,92 @@
 }
 .textblnine:hover{
     background-color: rgb(0,11,14, 0.2);
+}
+.smallblockstwo{
+    margin: 30px 30px 0 0;
+}
+.blbg10{
+    background-image:
+    linear-gradient(to top, rgba(165,104,51, 0.7), rgba(165,104,51,0.7)),
+    url(../img/interest/acoustic.jpg);
+}
+.textbl10:hover{
+    background-color: rgb(165,104,51, 0.2);
+}
+.blbg11{
+    background-image:
+    linear-gradient(to top, rgba(164,82,43, 0.7), rgba(164,82,43,0.7)),
+    url(../img/interest/rnb.jpg);
+}
+.textbl11:hover{
+    background-color: rgb(164,82,43, 0.2);
+}
+.blbg12{
+    background-image:
+    linear-gradient(to top, rgba(97,97,97, 0.7), rgba(97,97,97,0.7)),
+    url(../img/interest/hardcore.jpg);
+}
+.textbl12:hover{
+    background-color: rgb(97,97,97, 0.2);
+}
+.blbg13{
+    background-image:
+    linear-gradient(to top, rgba(54,54,54, 0.7), rgba(54,54,54,0.7)),
+    url(../img/interest/country.jpg);
+}
+.textbl13:hover{
+    background-color: rgb(54,54,54, 0.2);
+}
+.blbg14{
+    background-image:
+    linear-gradient(to top, rgba(168,25,42, 0.7), rgba(168,25,42,0.7)),
+    url(../img/interest/blues.jpg);
+}
+.textbl14:hover{
+    background-color: rgb(168,25,42, 0.2);
+}
+.blbg15{
+    background-image:
+    linear-gradient(to top, rgba(61,110,176, 0.7), rgba(61,110,176,0.7)),
+    url(../img/interest/alternative.jpg);
+}
+.textbl15:hover{
+    background-color: rgb(61,110,176, 0.2);
+}
+.blbg16{
+    background-image:
+    linear-gradient(to top, rgba(79,83,58, 0.7), rgba(79,83,58,0.7)),
+    url(../img/interest/classical.jpg);
+}
+.textbl16:hover{
+    background-color: rgb(79,83,58, 0.2);
+}
+.blbg17{
+    background-image:
+    linear-gradient(to top, rgba(89,122,145, 0.7), rgba(89,122,145,0.7)),
+    url(../img/interest/rap2.jpg);
+}
+.textbl17:hover{
+    background-color: rgb(89,122,145, 0.2);
+}
+.blbg18{
+    background-image:
+    linear-gradient(to top, rgba(54,54,54, 0.7), rgba(54,54,54,0.7)),
+    url(../img/interest/country2.jpg);
+}
+.textbl18:hover{
+    background-color: rgb(54,54,54, 0.2);
+}
+.bigblocktwo{
+    margin-top: 30px;
+    background: 
+    linear-gradient( rgba(74,68,47,0), rgba(74,68,47,1)),
+    url(../img/interest/big\ meatal.jpg);
+    background-size: cover;
+}
+.secondblocklink1{
+    margin-right: 65px;
+}
+.secondblocklink3{
+    margin-right: 125px;
 }
