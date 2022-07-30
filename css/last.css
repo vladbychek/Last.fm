@@ -1,8 +1,9 @@
 .last{
     width: 1170px;
     margin: 0 auto;
-    padding: 50px 30px 0;
+    padding: 50px 30px 36px;
 }
+
 .last__title__title{
     font-family: 'Barlow', sans-serif;
     text-align: center;
@@ -21,17 +22,30 @@
     margin-top: 24px;
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
-.last__blocks__album__img{
-    width: 170px;
-    height: 170px;
-    padding-bottom: 12px;
+.album__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .last__name__link, .last__nick__link{
     text-decoration: none;
+    display: inline;
 }
 .last__name__link:hover, .last__nick__link:hover{
     text-decoration: underline;
+    display: inline;
+}
+.last__name__link:visited, .last__nick__link:visited{
+    color: rgb(34, 34, 34);
+}
+.last__name__link:link, .last__nick__link:link{
+    color: rgb(34, 34, 34);
+}
+.last__blocks__album__name{
+    margin-top: 12px;
+    margin-bottom: 2px;
 }
 .last__blocks__album__name, .last__blocks__album__nick{
     font-size: 14px;
@@ -50,4 +64,107 @@
     line-height: 21px;
     color: rgb(153, 153, 153);
     margin-top: 3px;
+}
+.last__album__img{
+    width: 170px;
+    height: 170px;
+    background-size: cover;
+}
+.album__img__wrapper{
+    width: 170px;
+    height: 170px;
+    background: black;
+    opacity: 0;
+}
+.last__album__button{
+    color: white;
+    font-size: 60px;
+    display: none;
+    opacity: 0.7;
+    position: relative;
+    bottom: 115px;
+    left: 55px;
+    background-color: rgba(28, 28,28, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.last__album__button:hover{
+    opacity: 1;
+}
+.last__album__button:active{
+    opacity: 0.5;
+}
+.album__img__wrapper:hover{
+    opacity: 0.2;
+}
+.last__album__img:hover .last__album__button{
+    display: inline;
+}
+.lai1{
+    background:  url(../img/last/leos.jpg);
+    background-size: cover;
+}
+.lai2{
+    background:  url(../img/last/harish.jpg);
+    background-size: cover;
+}
+.lai3{
+    background:  url(../img/last/beyonce.jpg);
+    background-size: cover;
+}
+.lai4{
+    background:  url(../img/last/sidoka.jpg);
+    background-size: cover;
+}
+.lai5{
+    background:  url(../img/last/maggie.jpg);
+    background-size: cover;
+}
+.lai6{
+    background:  url(../img/last/they.jpg);
+    background-size: cover;
+}
+.lai7{
+    background:  url(../img/last/kuedo.jpg);
+    background-size: cover;
+}
+.lai8{
+    background:  url(../img/last/dance.jpg);
+    background-size: cover;
+}
+.lai9{
+    background:  url(../img/last/panorama.jpg);
+    background-size: cover;
+}
+.lai10{
+    background:  url(../img/last/florist.jpg);
+    background-size: cover;
+}
+.lai11{
+    background:  url(../img/last/arch.jpg);
+    background-size: cover;
+}
+.lai12{
+    background:  url(../img/last/king.jpg);
+    background-size: cover;
+}
+.last__show-nem-rel{
+    margin-top: 26px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.last__show-n-r__link{
+   text-decoration: none;
+   color:#005399;
+}
+.last__show-n-r__link:hover{
+    text-decoration: underline;
+}
+.last__show-nem-rel-icon{
+    padding-left: 8px;
 }

@@ -1,6 +1,7 @@
 .interest{
     width: 1170px;
     margin: 53px auto;
+    padding: 0 30px;
 }
 .interest__title{
     padding-bottom: 18px;
@@ -120,9 +121,6 @@
     width: 570px;
     gap: 30px;
 }
-
-
-
 .interest__blocks__small-block{
     width: 570px;
     height: 570px;
@@ -137,14 +135,12 @@
     font-family: 'Barlow', sans-serif;
     font-weight: 700;
     color: white;
-    
 }
 .interest__blocks__small-blocks__link{
     text-decoration: none;  
 }
 .interest__blocks__small-blocks__block:hover{
     text-decoration: underline;
-    
 }
 .bgimg{
     background-size:cover;
