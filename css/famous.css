@@ -1,0 +1,202 @@
+.famous{
+   width: 1170px;
+   margin: 0 auto;
+}
+.famous__title-title{
+   font-family: 'Barlow', sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 24px;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 18px;
+}
+.famous__title-separator{
+   width: 50px;
+   border-bottom: 2px solid rgb(185, 0, 0);
+   margin: 0 auto;
+}
+.famous__big-blocks{
+   margin-top: 24px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+
+
+
+
+
+.famous__big-blocks__big-blockone{
+   width: 570px;
+   height: 570px;
+   background: linear-gradient( rgba(145,39,22,0), rgba(145,39,22,1)), url(../img//famous/big-beyonce.jpg);
+   background-size: cover;
+}
+.famous__big-blocks__big-blocktwo{
+   width: 570px;
+   height: 570px;
+   background: linear-gradient( rgba(118,118,118,0), rgba(118,118,118,1)), url(../img//famous/big-TS.jpg);
+   background-size: cover;
+}
+.famous__big-blocks__big-blockone__fon:hover{
+   background-color: rgb(0, 0, 0, 0.1);
+   height: 570px;
+}   
+.famous__big-blocks__big-blockone__link{
+   height: 335px;
+   color: white;
+   font-size: 24px;
+   font-family: 'Barlow', sans-serif;
+   cursor: pointer;
+   font-weight: 700;
+   line-height: 30px;
+   padding: 0 20px 5px;
+   display: flex;
+   flex-direction: column-reverse;
+}
+.famous__big-blocks__big-blockone__link:hover{
+   text-decoration: underline;
+}
+.famous__big-blocks__big-blockone__text__smalltitle{
+   color: #C0C0C0;
+}
+.famous__big-blocks__big-blockone__text__smalltext{
+      color: white;
+      font-family: 'Barlow', sans-serif;
+      font-size: 14px;
+      padding: 5px 20px 0;
+      line-height: 21px;
+}
+.famous__big-blocks__big-blockone__like{
+   display: flex;
+   flex-wrap: wrap;
+}
+.famo_linkone{
+   text-decoration: none;
+}
+
+.famo_span_linktwo{
+   color: white;
+   text-decoration: none;
+   font-weight: 700;
+}
+.famo_span_linktwo:hover{
+   text-decoration: underline;
+}
+.fam-bb-link{
+   text-decoration: none;
+}
+.famous__big-blocks__big-blockone__genre{
+   display: flex;
+   padding: 5px 20px 0;
+   gap: 5px;
+}
+.famous__big-blocks__big-blockone__genre__type{
+   font-size: 12px;
+   font-weight: 700;
+   font-family: 'Barlow', sans-serif;
+   color: white;
+   padding: 5px 15px 6px;
+   border-radius: 3px;
+   border: 1px solid rgba(255, 255, 255, 0.6);
+   line-height: 28px;
+}
+.famous__big-blocks__big-blockone__genre__type:hover{
+   border: 1px solid white;
+}
+.fam_img_bot{
+   width: 70px;
+   height: 70px;
+}
+.famous__big-blocks__big-blockone__bottom__one{
+   display: flex;
+   padding: 20px 20px;
+}
+.famous__big-blocks__big-blockone__bottom{
+   display: flex;
+   gap: 10px;
+}
+
+.fam__bot__img{
+   width: 70px;
+   height: 70px;
+   background: url(../img/famous/beyoncebot.jpg);
+   background-size: contain;
+}
+.fam__bot__img__two__one{
+   width: 70px;
+   height: 70px;
+   background: url(../img/famous/ts\ bot\ 1.jpg);
+   background-size: contain;
+}
+.fam__bot__img__two__two{
+   width: 70px;
+   height: 70px;
+   background: url(../img/famous/ts\ bot\ 2.jpg);
+   background-size: contain;
+}
+.fam__img__wrapper{
+   width: 70px;
+   height: 70px;
+   background: black;
+   opacity: 0;
+}
+.fam__img__wrapper:hover{
+   opacity: 0.2;
+}
+.famous__big-blocks__big-blockone__bottom__one:hover .fam__bot__button{
+   display: inline;
+}
+.fam__bot__button{
+   color: white;
+   font-size: 30px;
+   display: none;
+   opacity: 0.7;
+   position: relative;
+   bottom: 50px;
+   left: 20px;
+   background-color: rgba(28, 28,28, 0);
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+}
+.fam__bot__button:hover{
+   opacity: 1;
+}
+.fam__bot__button:active{
+   opacity: 0.5;
+}
+.fam__bot__text{
+   font-family: 'Barlow', sans-serif;
+   padding: 5px 0 0 13px;
+}
+.fam__bot__text__title{
+   color: #C0C0C0;
+   font-size: 12px;
+   line-height: 18px;
+   font-weight: 400;
+}
+.fam__bot__text__link{
+   text-decoration: none;
+}
+.fam__bot__text__link:visited{
+   color: white;
+}
+.fam__bot__text__link:link{
+   color: white;
+}
+.fam__bot__text__name{
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 21px;
+}
+.fam__bot__text__name:hover{
+   text-decoration: underline;
+}
+.fam__bot__text__date{
+   color: white;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+}
