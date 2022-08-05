@@ -1,0 +1,145 @@
+.popular{
+    width: 1170px;
+    margin: 0 auto;
+}
+.popular__title{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 49px;
+    display: flex;
+    justify-content: center;
+}
+.popular__separator{
+    border-bottom: 2px solid rgb(185, 0, 0);
+    width: 50px;
+    margin: 18px auto 0;
+}
+.popular__blocks{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    column-gap: 70px;
+    row-gap: 24px;
+}
+.popular__img{
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+}
+.popular__img__wrapper{
+    width: 70px;
+    height: 70px;
+    background: black;
+    opacity: 0;
+}
+.popular__button{
+    color: white;
+    font-size: 30px;
+    display: none;
+    opacity: 0.7;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    background-color: rgba(28, 28,28, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.popular__button:hover{
+    opacity: 1;
+}
+.popular__button:active{
+    opacity: 0.5;
+}
+.popular__img__wrapper:hover{
+    opacity: 0.2;
+}
+.popular__img:hover .popular__button{
+    display: inline;
+}
+.popim1, .popim3, .popim9{
+    background:  url(../img/popular/unknown.jpg);
+    background-size: cover;
+}
+.popim2{
+    background:  url(../img/popular/left.jpg);
+    background-size: cover;
+}
+.popim4{
+    background:  url(../img/popular/arson.jpg);
+    background-size: cover;
+}
+.popim5{
+    background:  url(../img/popular/beyonce.jpg);
+    background-size: cover;
+}
+.popim6{
+    background:  url(../img/popular/bad.jpg);
+    background-size: cover;
+}
+.popim7{
+    background:  url(../img/popular/bts.jpg);
+    background-size: cover;
+}
+.popim8{
+    background:  url(../img/popular/new.jpg);
+    background-size: cover;
+}
+.popular__blocks__block{
+    display: flex;
+    width: 340px;
+}
+.popular__blocks__block__text{
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.pop__dot{
+    font-size: 1px;
+    color: #909090;
+    display: flex;
+    align-items: center;
+ }
+ .popular__blocks__block__genre__type__link{
+    color: #909090;
+    text-decoration: none;
+ }
+ .popular__blocks__block__genre__type__link:hover{
+    text-decoration: underline;
+ }
+ .popular__blocks__block__genre__type{
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+ }
+ .popular__blocks__block__genre{
+    display: flex;
+    gap: 5px;
+    margin- top: 2px;
+}
+.popular__name__link, .popular__nickname__link{
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+}
+.popular__nickname__link:hover{
+    text-decoration: underline;
+}
+.popular__name__link:hover{
+    text-decoration: underline;
+}
+.popular__name{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Barlow', sans-serif;
+    line-height: 21px;
+    color: rgb(34, 34, 34);
+}
+.popular__nickname{
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    color: rgb(34, 34, 34);
+    line-height: 21px;
+}
