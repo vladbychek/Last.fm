@@ -1,0 +1,170 @@
+.soon{
+   width: 1170px;
+   margin: 0 auto;
+   padding: 50px 30px 36px;
+}
+
+.soon__title__title{
+   font-family: 'Barlow', sans-serif;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 24px;
+   color: rgb(34, 34, 34);
+}
+.soon__title__separator{
+   width: 50px;
+   border-bottom: 3px solid rgb(185, 0, 0);
+   padding-top: 18px;
+   margin: 0 auto;
+}
+.soon__blocks{
+   margin-top: 24px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+.soon__album__links{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+.soon__name__link, .soon__nick__link{
+   text-decoration: none;
+   display: inline;
+}
+.soon__name__link:hover, .soon__nick__link:hover{
+   text-decoration: underline;
+   display: inline;
+}
+.soon__name__link:visited, .soon__nick__link:visited{
+   color: rgb(34, 34, 34);
+}
+.soon__name__link:link, .soon__nick__link:link{
+   color: rgb(34, 34, 34);
+}
+.soon__blocks__album__name{
+   margin-top: 12px;
+   margin-bottom: 2px;
+}
+.soon__blocks__album__name, .soon__blocks__album__nick{
+   font-size: 14px;
+   font-family: 'Barlow', sans-serif;
+   font-weight: 700;
+   line-height: 21px;
+   color: rgb(34, 34, 34);
+}
+.soon__blocks__album__nick{
+   font-weight: 400 !important;
+}
+.soon__blocks__album__date{
+   font-size: 12px;
+   font-family: 'Barlow', sans-serif;
+   font-weight: 400;
+   line-height: 21px;
+   color: rgb(153, 153, 153);
+   margin-top: 3px;
+}
+.soon__album__img{
+   width: 170px;
+   height: 170px;
+   background-size: cover;
+}
+.soon__album__img__wrapper{
+   width: 170px;
+   height: 170px;
+   background: black;
+   opacity: 0;
+}
+.soon__album__button{
+   color: white;
+   font-size: 60px;
+   display: none;
+   opacity: 0.7;
+   position: relative;
+   bottom: 115px;
+   left: 55px;
+   background-color: rgba(28, 28,28, 0);
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+}
+.soon__album__button:hover{
+   opacity: 1;
+}
+.soon__album__button:active{
+   opacity: 0.5;
+}
+.soon__album__img__wrapper:hover{
+   opacity: 0.2;
+}
+.soon__album__img:hover .soon__album__button{
+   display: inline;
+}
+.sai1{
+   background:  url(../img/soon/newj.jpg);
+   background-size: cover;
+}
+.sai2{
+   background:  url(../img/soon/maddie.jpg);
+   background-size: cover;
+}
+.sai3{
+   background:  url(../img/soon/days.jpg);
+   background-size: cover;
+}
+.sai4{
+   background:  url(../img/soon/sinner.jpg);
+   background-size: cover;
+}
+.sai5{
+   background:  url(../img/soon/cheat.jpg);
+   background-size: cover;
+}
+.sai6{
+   background:  url(../img/soon/pale.jpg);
+   background-size: cover;
+}
+.sai7{
+   background:  url(../img/soon/phantoms.jpg);
+   background-size: cover;
+}
+.sai8{
+   background:  url(../img/soon/hotel.jpg);
+   background-size: cover;
+}
+.sai9{
+   background:  url(../img/soon/cant.jpg);
+   background-size: cover;
+}
+.sai10{
+   background:  url(../img/soon/kasa.jpg);
+   background-size: cover;
+}
+.sai11{
+   background:  url(../img/soon/reset.jpg);
+   background-size: cover;
+}
+.sai12{
+   background:  url(../img/soon/sun.jpg);
+   background-size: cover;
+}
+.soon__show-all{
+   margin-top: 26px;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 21px;
+   font-family: 'Barlow', sans-serif;
+   display: flex;
+   justify-content: center;
+}
+.soon__show-all__link{
+  text-decoration: none;
+  color:#005399;
+}
+.soon__show-all__link:hover{
+   text-decoration: underline;
+}
+.soon__show-all-icon{
+   padding-left: 8px;
+}
