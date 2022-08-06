@@ -1,0 +1,82 @@
+.charts{
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+.charts__title{
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgb(34, 34, 34);
+    margin-top: 36px;
+ }
+ .charts__separator{
+    width: 50px;
+    border-bottom: 3px solid rgb(185, 0, 0);
+    padding-top: 18px;
+    margin: 0 auto;
+ }
+ .charts__blocks{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    margin-top: 24px;
+ }
+ .charts__blocks__block__link{
+    text-decoration: none;  
+}
+.chartsbgimg{
+    background-size:cover;
+    width: 270px;
+    height: 270px
+}
+.charts__blocks__block{
+    width: 270px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    color: white;
+    line-height: 24px;
+}
+.charts__blocks__block:hover{
+    text-decoration: underline;
+}
+
+.textchartsone:hover{
+    background-color: rgb(162, 105, 78, 0.2);
+}
+.chartsbgone{
+    background-image:
+    linear-gradient(to top, rgba(176,81,54,0.7), rgba(176,81,54,0.7)),
+    url(../img/charts/one.jpg);
+}
+.textchartstwo:hover{
+    background-color: rgb(150,110,73, 0.2);
+}
+.chartsbgtwo{
+    background-image:
+    linear-gradient(to top, rgba(150,110,73,0.7), rgba(150,110,73,0.7)),
+    url(../img/charts/two.jpg);
+}
+.textchartsthree:hover{
+    background-color: rgb(51,74,75, 0.2);
+}
+.chartsbgthree{
+    background-image:
+    linear-gradient(to top, rgba(51,74,75,0.7), rgba(51,74,75,0.7)),
+    url(../img/charts/three.gif);
+}
+.textchartsfour:hover{
+    background-color: rgb(118,118,118, 0.2);
+}
+.chartsbgfour{
+    background-image:
+    linear-gradient(to top, rgba(118,118,118,0.7), rgba(118,118,118,0.7)),
+    url(../img/charts/four.jpg);
+}
