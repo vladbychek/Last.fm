@@ -24,70 +24,6 @@
     column-gap: 70px;
     row-gap: 24px;
 }
-.popular__img{
-    width: 70px;
-    height: 70px;
-    background-size: cover;
-}
-.popular__img__wrapper{
-    width: 70px;
-    height: 70px;
-    background: black;
-    opacity: 0;
-}
-.popular__button{
-    color: white;
-    font-size: 30px;
-    display: none;
-    opacity: 0.7;
-    position: relative;
-    bottom: 50px;
-    left: 20px;
-    background-color: rgba(28, 28,28, 0);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-}
-.popular__button:hover{
-    opacity: 1;
-}
-.popular__button:active{
-    opacity: 0.5;
-}
-.popular__img__wrapper:hover{
-    opacity: 0.2;
-}
-.popular__img:hover .popular__button{
-    display: inline;
-}
-.popim1, .popim3, .popim9{
-    background:  url(../img/popular/unknown.jpg);
-    background-size: cover;
-}
-.popim2{
-    background:  url(../img/popular/left.jpg);
-    background-size: cover;
-}
-.popim4{
-    background:  url(../img/popular/arson.jpg);
-    background-size: cover;
-}
-.popim5{
-    background:  url(../img/popular/beyonce.jpg);
-    background-size: cover;
-}
-.popim6{
-    background:  url(../img/popular/bad.jpg);
-    background-size: cover;
-}
-.popim7{
-    background:  url(../img/popular/bts.jpg);
-    background-size: cover;
-}
-.popim8{
-    background:  url(../img/popular/new.jpg);
-    background-size: cover;
-}
 .popular__blocks__block{
     display: flex;
     width: 340px;
@@ -144,3 +80,38 @@
     color: rgb(34, 34, 34);
     line-height: 21px;
 }
+.pop__album__card{
+    width: 70px;
+    height: 70px;
+    background:#000;
+    overflow:hidden;
+ }
+ .pop__album__img{
+  display: block;
+  width: 70px;
+  background:#000;
+  overflow:hidden;
+  transition: 0.1s linear;
+ }
+ .pop__album__img:hover{
+    opacity: 0.8;
+ }
+ .pop__album__button{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    color: white;
+    background: inherit;
+    font-size: 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 60%;
+ }
+ .popular__blocks__block:hover .pop__album__button{
+    visibility: visible;
+ }
+ .pop__album__button:hover{
+  opacity: 90%;
+ }

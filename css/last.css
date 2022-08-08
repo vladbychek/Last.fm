@@ -65,90 +65,41 @@
     color: rgb(153, 153, 153);
     margin-top: 3px;
 }
-.last__album__img{
+.last__album__card{
     width: 170px;
     height: 170px;
-    background-size: cover;
-}
-.album__img__wrapper{
-    width: 170px;
-    height: 170px;
-    background: black;
-    opacity: 0;
-}
-.last__album__button{
-    color: white;
-    font-size: 60px;
-    display: none;
-    opacity: 0.7;
+    background:#000;
+    overflow:hidden;
+ }
+ .last__album__img{
+  display: block;
+  width: 170px;
+  background:#000;
+  overflow:hidden;
+  transition: 0.1s linear;
+ }
+ .last__album__button{
     position: relative;
     bottom: 115px;
     left: 55px;
-    background-color: rgba(28, 28,28, 0);
+    color: white;
+    background: inherit;
+    font-size: 60px;
     border: none;
     border-radius: 50px;
     cursor: pointer;
-}
-.last__album__button:hover{
-    opacity: 1;
-}
-.last__album__button:active{
-    opacity: 0.5;
-}
-.album__img__wrapper:hover{
-    opacity: 0.2;
-}
-.last__album__img:hover .last__album__button{
-    display: inline;
-}
-.lai1{
-    background:  url(../img/last/leos.jpg);
-    background-size: cover;
-}
-.lai2{
-    background:  url(../img/last/harish.jpg);
-    background-size: cover;
-}
-.lai3{
-    background:  url(../img/last/beyonce.jpg);
-    background-size: cover;
-}
-.lai4{
-    background:  url(../img/last/sidoka.jpg);
-    background-size: cover;
-}
-.lai5{
-    background:  url(../img/last/maggie.jpg);
-    background-size: cover;
-}
-.lai6{
-    background:  url(../img/last/they.jpg);
-    background-size: cover;
-}
-.lai7{
-    background:  url(../img/last/kuedo.jpg);
-    background-size: cover;
-}
-.lai8{
-    background:  url(../img/last/dance.jpg);
-    background-size: cover;
-}
-.lai9{
-    background:  url(../img/last/panorama.jpg);
-    background-size: cover;
-}
-.lai10{
-    background:  url(../img/last/florist.jpg);
-    background-size: cover;
-}
-.lai11{
-    background:  url(../img/last/arch.jpg);
-    background-size: cover;
-}
-.lai12{
-    background:  url(../img/last/king.jpg);
-    background-size: cover;
-}
+    visibility: hidden;
+    opacity: 60%;
+ }
+ .last__album__img:hover{
+    opacity: 0.8;
+ }
+ .last__blocks__album:hover .last__album__button{
+    visibility: visible;
+ }
+ .last__album__button:hover{
+    opacity: 90%;
+ }
 .last__show-nem-rel{
     margin-top: 26px;
     font-size: 14px;

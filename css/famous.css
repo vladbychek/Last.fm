@@ -23,22 +23,19 @@
    flex-wrap: wrap;
    gap: 30px;
 }
-
-
-
-
-
 .famous__big-blocks__big-blockone{
    width: 570px;
    height: 570px;
    background: linear-gradient( rgba(145,39,22,0), rgba(145,39,22,1)), url(../img//famous/big-beyonce.jpg);
    background-size: cover;
+   transition: 0.1s linear;
 }
 .famous__big-blocks__big-blocktwo{
    width: 570px;
    height: 570px;
    background: linear-gradient( rgba(118,118,118,0), rgba(118,118,118,1)), url(../img//famous/big-TS.jpg);
    background-size: cover;
+   transition: 0.1s linear;
 }
 .famous__big-blocks__big-blockone__fon:hover{
    background-color: rgb(0, 0, 0, 0.1);
@@ -142,6 +139,7 @@
    height: 70px;
    background: black;
    opacity: 0;
+   transition: 0.1s linear;
 }
 .fam__img__wrapper:hover{
    opacity: 0.2;
@@ -259,51 +257,22 @@
    font-size: 12px;
    line-height: 18px;
 }
-.fbgi1{
-   background: url(../img/famous/jhope.jpg);
-   background-size: cover;
+.fam__album__card{
+   width: 169px;
+   height: 169px;
+   background:#000;
+   overflow:hidden;
+   border-radius: 50%;
+   border: none;
 }
-.fbgi2{
-   background: url(../img/famous/tssmall.jpg);
-   background-size: cover;
+.fam__album__img{
+ display: block;
+ width: 170px;
+ background:#000;
+ overflow:hidden;
+ transition: 0.3s linear;
+ border-radius: 50%;
 }
-.fbgi3{
-   background: url(../img/famous/kw.jpg);
-   background-size: cover;
-}
-.fbgi4{
-   background: url(../img/famous/hs.jpg);
-   background-size: cover;
-}
-.fbgi5{
-   background: url(../img/famous/drake.jpg);
-   background-size: cover;
-}
-.fbgi6{
-   background: url(../img/famous/thewe.jpg);
-   background-size: cover;
-}
-.fbgi7{
-   background: url(../img/famous/newj.jpg);
-   background-size: cover;
-}
-.fbgi8{
-   background: url(../img/famous/tyler.jpg);
-   background-size: cover;
-}
-.fbgi9{
-   background: url(../img/famous/SL.jpg);
-   background-size: cover;
-}
-.fbgi10{
-   background: url(../img/famous/KL.jpg);
-   background-size: cover;
-}
-.fbgi11{
-   background: url(../img/famous/PLAYc.jpg);
-   background-size: cover;
-}
-.fbgi12{
-   background: url(../img/famous/suic.jpg);
-   background-size: cover;
+.fam__album__img:hover{
+   opacity: 0.8;
 }
