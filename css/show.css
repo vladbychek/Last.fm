@@ -85,3 +85,30 @@
 .show__album__img:hover{
    opacity: 0.8;
 }
+@media screen and (min-width: 990px) and (max-width: 1326px){
+   .show{
+      width: 940px;
+   }
+   .show__blocks{
+      column-gap: 18px;
+   }
+   .show__blocks__block{
+      width: 300.6px;
+   }
+   .show__album__big-card{
+      width: 225.3px;
+      height: 226.3px;
+   }
+   .show__album__big-img{
+      width: 225.3px;
+      height: 226.3px;
+   }
+   .show__album__card{
+      width: 75.3px;
+      height: 75.3px;
+   }
+   .show__album__img{
+      width: 75.3px;
+      height: 75.3px;
+   }
+}

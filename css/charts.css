@@ -81,3 +81,19 @@
     linear-gradient(to top, rgba(118,118,118,0.7), rgba(118,118,118,0.7)),
     url(../img/charts/four.jpg);
 }
+@media screen and (min-width: 990px) and (max-width: 1326px){
+    .charts{
+        width: 940px;
+    }
+    .charts__blocks{
+        column-gap: 20px;
+     }
+     .chartsbgimg{
+        width: 220px;
+        height: 220px
+    }
+    .charts__blocks__block{
+        width: 220px;
+        height: 220px;
+    }
+}

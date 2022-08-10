@@ -99,3 +99,12 @@
    float: right;
    margin-top: 3px;
 }
+@media screen and (min-width: 990px) and (max-width: 1326px){
+   .footer__top__content{
+      width: 940px;
+   }
+   .footer__bot__content{
+      width: 940px;
+      padding: 18px 0 25px;
+   }
+}

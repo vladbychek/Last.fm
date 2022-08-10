@@ -118,3 +118,22 @@
 .soon__button:hover{
    opacity: 90%;
 }
+@media screen and (min-width: 990px) and (max-width: 1326px){
+   .soon{
+      width: 940px;
+      padding: 50px 20px 36px;
+   }
+   .soon__album__card{
+      width: 140px;
+      height: 140px;
+   }
+   .soon__album__img{
+      width: 140px;
+   }
+   .soon__blocks{
+      gap: 20px;
+   }
+   .soon__adapt__sp{
+      font-size: 12px;
+   }
+}

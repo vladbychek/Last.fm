@@ -119,3 +119,20 @@
 .last__show-nem-rel-icon{
     padding-left: 8px;
 }
+@media screen and (min-width: 990px) and (max-width: 1326px){
+    .last{
+        width: 940px;
+        padding: 48px 20px;
+    }
+    .last__blocks{
+        margin-top: 24px;
+        gap: 20px;
+    }
+    .last__album__card{
+        width: 140px;
+        height: 140px;
+     }
+     .last__album__img{
+      width: 140px;
+     }
+}

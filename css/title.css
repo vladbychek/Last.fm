@@ -2,6 +2,9 @@
     width: 1170px;
     padding-top: 105px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .music-title__text{
     display: flex;
@@ -36,4 +39,9 @@
 .music-title__link2:hover{
     text-decoration: underline;
     text-decoration-color:rgb(34, 34, 34) ;
+}
+@media screen and (min-width: 990px) and (max-width: 1326px){
+    .music-title{
+        width: 940px;
+    }
 }

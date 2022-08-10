@@ -1,7 +1,7 @@
 .popular{
     width: 1170px;
     margin: 0 auto;
-    padding-bottom=: 48px;
+    padding-bottom: 48px;
 }
 .popular__title{
     font-family: 'Barlow', sans-serif;
@@ -55,7 +55,7 @@
  .popular__blocks__block__genre{
     display: flex;
     gap: 5px;
-    margin- top: 2px;
+    margin-top: 2px;
 }
 .popular__name__link, .popular__nickname__link{
     color: rgb(34, 34, 34);
@@ -114,4 +114,23 @@
  }
  .pop__album__button:hover{
   opacity: 90%;
+ }
+ @media screen and (min-width: 990px) and (max-width: 1326px){
+    .popular{
+        width: 940px;
+    }
+    .pop__album__card{
+        width: 60px;
+        height: 60px;
+     }
+     .pop__album__img{
+      width: 60px;
+     }
+     .popular__blocks__block{
+        width: 300px;
+    }
+     .popular__blocks{
+        column-gap: 20px;
+        row-gap: 24px;
+    }
  }
