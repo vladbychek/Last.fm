@@ -135,4 +135,36 @@
      .last__album__img{
       width: 140px;
      }
+     .last__album__button{
+        position: relative;
+        bottom: 100px;
+        left: 43px;
+        font-size: 55px;
+     }
+}
+@media screen and (min-width: 420px) and (max-width: 1023px){
+    .last{
+        width: 390px;
+        margin: 0 auto;
+        padding: 0 15px 36px;
+    }
+    .last__tel__adapt__none{
+        display: none;
+    }
+    .last__blocks{
+        gap: 15px;
+    }
+    .last__album__card{
+        width: 187.5px;
+        height: 187.5px;
+     }
+     .last__album__img{
+      width: 187.5px;;
+     }
+     .last__album__button{
+        position: relative;
+        bottom: 125px;
+        left: 65px;
+        font-size: 55px;
+     }
 }

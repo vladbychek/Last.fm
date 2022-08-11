@@ -124,6 +124,12 @@
     width: 570px;
     gap: 30px;
 }
+.interest__blocks__small-blocks__link{
+    text-decoration: none;  
+}
+.interest__blocks__small-blocks__block:hover{
+    text-decoration: underline;
+}
 .interest__blocks__small-block{
     width: 570px;
     height: 570px;
@@ -139,12 +145,6 @@
     font-weight: 700;
     transition: 0.1s linear;
     color: white;
-}
-.interest__blocks__small-blocks__link{
-    text-decoration: none;  
-}
-.interest__blocks__small-blocks__block:hover{
-    text-decoration: underline;
 }
 .bgimg{
     background-size:cover;
@@ -311,6 +311,28 @@
 .secondblocklink3{
     margin-right: 125px;
 }
+.int__show-all{
+    margin-top: 26px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    justify-content: center;
+ }
+ .int__show-all__link{
+   text-decoration: none;
+   color:#005399;
+ }
+ .int__show-all__link:hover{
+    text-decoration: underline;
+ }
+ .int__show-all-icon{
+    padding-left: 8px;
+ }
+.int__show-all{
+    display: none;
+}
 @media screen and (min-width: 990px) and (max-width: 1326px){
     .interest{
         width: 940px;
@@ -374,4 +396,61 @@
     .secondblocklink3{
         margin-right: 89px;
     }
+}
+@media screen and (min-width: 420px) and (max-width: 1023px){
+    .interest{
+        width: 390px;
+        padding: 48px 15px;
+    }
+    .inter__tel__adapt__none{
+        display: none;
+    }
+    .interest__blocks__big-blockone{
+        width: 390px;
+        height: 390px;
+    }
+    .fon:hover{
+        height: 390px;
+    }   
+    .interest__blocks__big-blockone__link{
+        height: 120px;
+    }
+    .like__img{
+        width: 50px;
+        height: 50px;
+    }
+    .like__link{
+        margin: 25px 30px 0 20px;
+    }
+    .linkthree{
+        margin-right: 15px !important;
+    }
+    .interest__blocks__small-blocks{
+        margin: 20px 0 0 0;
+        width: 390px;
+        height: 390px;
+        column-gap: 55px;
+    }
+    .interest__blocks__small-block{
+        width: 390px;
+        height: 390px;
+    }
+    .interest__blocks__small-blocks__block{
+        width: 187.5px;
+        height: 187.5px;
+    }
+    .bgimg{
+        width: 187.5px;
+        height: 187.5px;
+    }
+    .int__show-all{
+        display: block;
+    }
+    .int__show-all{
+        margin: 25px auto;
+        text-align: center;
+     }
+     .smallblockstwo{
+        display: none;
+     }
 }

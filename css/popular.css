@@ -115,6 +115,26 @@
  .pop__album__button:hover{
   opacity: 90%;
  }
+ .pop__show-all{
+    margin-top: 26px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    visibility: hidden;
+    justify-content: center;
+ }
+ .pop__show-all__link{
+   text-decoration: none;
+   color:#005399;
+ }
+ .pop__show-all__link:hover{
+    text-decoration: underline;
+ }
+ .pop__show-all-icon{
+    padding-left: 8px;
+ }
  @media screen and (min-width: 990px) and (max-width: 1326px){
     .popular{
         width: 940px;
@@ -125,6 +145,7 @@
      }
      .pop__album__img{
       width: 60px;
+      height: 60px;
      }
      .popular__blocks__block{
         width: 300px;
@@ -133,4 +154,27 @@
         column-gap: 20px;
         row-gap: 24px;
     }
+    .pop__album__button{
+        position: relative;
+        bottom: 45px;
+        left: 16px;
+     }
+     .pop__adapt__sp{
+        font-size: 12px;
+     }
+ }
+ @media screen and (min-width: 420px) and (max-width: 1023px){
+    .popular{
+        width: 390px;
+        padding-bottom: 36px;
+    }
+    .pop__tel__adapt__none{
+        display: none;
+    }
+    .popular__blocks__block{
+        margin: 0 auto;
+    }
+    .pop__show-all{
+        visibility: visible;
+     }
  }

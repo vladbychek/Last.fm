@@ -44,6 +44,7 @@
     transition: 0.1s linear;
     color: white;
     line-height: 24px;
+    text-align: center
 }
 .charts__blocks__block:hover{
     text-decoration: underline;
@@ -96,4 +97,21 @@
         width: 220px;
         height: 220px;
     }
+}
+@media screen and (min-width: 420px) and (max-width: 1023px){
+    .charts{
+        width: 390px;
+    }
+    .chartsbgimg{
+        width: 190px;
+        height: 190px
+    }
+    .charts__blocks__block{
+        width: 190px;
+        height: 190px;
+    }
+    .charts__blocks{
+        column-gap: 10px;
+        row-gap: 20px;
+     }
 }

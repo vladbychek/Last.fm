@@ -66,4 +66,21 @@ input {outline:none;}
 .nothing__content__form__btn:hover{
    background-color: white;
 }
-@media screen and (min-width: 990px) and (max-width: 1326px)
+@media screen and (min-width: 420px) and (max-width: 1023px){
+   .nothing{
+      height: 378px;
+   }
+   .nothing__content{
+      width: 390px;
+   }
+   .nothing__content__form{
+      margin-top: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .nothing__content__form__btn{
+      margin-top: 12px;
+      margin-left: 0;
+   }
+}

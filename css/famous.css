@@ -102,10 +102,6 @@
 .famous__big-blocks__big-blockone__genre__type:hover{
    border: 1px solid white;
 }
-.fam_img_bot{
-   width: 70px;
-   height: 70px;
-}
 .famous__big-blocks__big-blockone__bottom__one{
    display: flex;
    padding: 20px 20px;
@@ -113,6 +109,10 @@
 .famous__big-blocks__big-blockone__bottom{
    display: flex;
    gap: 10px;
+}
+.fam_img_bot{
+   width: 70px;
+   height: 70px;
 }
 .fam__bot__img{
    width: 70px;
@@ -321,5 +321,74 @@
    }
    .fam__album__img{
     width: 140px;
+   }
+   .fam__img__wrapper{
+      width: 60px;
+      height: 60px;
+   }
+   .fam__bot__img__two__one{
+      width: 60px;
+      height: 60px;
+   }
+   .fam__bot__img__two__two{
+      width: 60px;
+      height: 60px;
+   }
+   .fam__bot__button{
+      font-size: 25px;
+      position: relative;
+      bottom: 43px;
+      left: 18px;
+   }
+}
+@media screen and (min-width: 420px) and (max-width: 1023px){
+   .famous{
+      width: 390px;
+      padding: 0 15 30px;
+   }
+   .famous__big-blocks__big-blockone{
+      width: 390px;
+      height: 390px;
+   }
+   .famous__big-blocks__big-blocktwo{
+      width: 390px;
+      height: 390px;
+   }
+   .famous__big-blocks__big-blockone__fon:hover{
+      height: 390px;
+   }  
+   .famous__big-blocks__big-blockone__link{
+      height: 150px;
+   }
+   .fam__bot__img{
+      width: 50px;
+      height: 50px;
+   }
+   .fam__img__wrapper{
+      width: 50px;
+      height: 50px;
+      margin-top: 15px;
+   }
+   .famous__big-blocks__big-blockone__bottom__one{
+      padding: 10px 10px 0 20px;
+   }
+   .fam__tel__adapt__none{
+      display: none;
+   }
+   .famous__small-blocks{
+      gap: 15px;
+   }
+   .fam__album__card{
+      width: 186.5px;
+      height: 186.5px;
+   }
+   .fam__album__img{
+    width: 187.5px;
+   }
+   .fam__bot__button{
+      font-size: 25px;
+      position: relative;
+      bottom: 37px;
+      left: 13px;
    }
 }

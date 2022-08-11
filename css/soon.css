@@ -121,7 +121,7 @@
 @media screen and (min-width: 990px) and (max-width: 1326px){
    .soon{
       width: 940px;
-      padding: 50px 20px 36px;
+      padding: 0 20px 36px;
    }
    .soon__album__card{
       width: 140px;
@@ -135,5 +135,37 @@
    }
    .soon__adapt__sp{
       font-size: 12px;
+   }
+   .soon__album__button{
+      position: relative;
+      bottom: 102px;
+      left: 44px;
+      font-size: 55px;
+   }
+}
+@media screen and (min-width: 420px) and (max-width: 1023px){
+   .soon{
+      width: 390px;
+      margin: 0 auto;
+      padding: 0 15px 36px;
+  }
+  .soon__tel__adapt__none{
+      display: none;
+  }
+  .soon__blocks{
+      gap: 15px;
+  }
+  .soon__album__card{
+      width: 187.5px;
+      height: 187.5px;
+   }
+   .soon__album__img{
+    width: 187.5px;;
+   }
+   .soon__album__button{
+      position: relative;
+      bottom: 125px;
+        left: 65px;
+      font-size: 55px;
    }
 }

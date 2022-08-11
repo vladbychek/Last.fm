@@ -32,6 +32,10 @@
    font-size: 14px;
    line-height: 21px;
 }
+
+
+
+
 .footer__bot{
    border-top: 1px solid rgb(34, 34, 34);
 }
@@ -106,5 +110,29 @@
    .footer__bot__content{
       width: 940px;
       padding: 18px 0 25px;
+   }
+}
+@media screen and (min-width: 420px) and (max-width: 1023px){
+   .footer{
+      height: 686px;
+   }
+   .footer__top__content{
+      width: 390px;
+      height: 345px;
+      flex-wrap: wrap;
+      gap: 20px;
+   }
+   .footer__top__content__block{
+      width: 185px;
+      padding: 0 0 0 0;
+   }
+   .footer__bot__content{
+      width: 390px;
+      padding: 18px 0 0;
+      height: 225px;
+   }
+   .footer__bot__content__left__lng{
+      display: flex;
+      flex-wrap: wrap;
    }
 }

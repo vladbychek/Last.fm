@@ -85,6 +85,27 @@
 .show__album__img:hover{
    opacity: 0.8;
 }
+.show__show-all{
+   margin-top: 26px;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 21px;
+   font-family: 'Barlow', sans-serif;
+   display: flex;
+   justify-content: center;
+   visibility: hidden;
+}
+.show__show-all__link{
+  text-decoration: none;
+  color:#005399;
+  text-align: center;
+}
+.show__show-all__link:hover{
+   text-decoration: underline;
+}
+.show__show-all-icon{
+   padding-left: 8px;
+}
 @media screen and (min-width: 990px) and (max-width: 1326px){
    .show{
       width: 940px;
@@ -110,5 +131,19 @@
    .show__album__img{
       width: 75.3px;
       height: 75.3px;
+   }
+}
+@media screen and (min-width: 420px) and (max-width: 1023px){
+   .show{
+      width: 390px;
+   }
+   .shpw__tel__adapt__none{
+      display: none;
+   }
+   .show__blocks__block{
+      margin: 24px auto 0;
+   }
+   .show__show-all{
+      visibility: visible;
    }
 }
