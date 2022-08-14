@@ -1,0 +1,105 @@
+.nothing {
+  width: 100%;
+  height: 264px;
+  background: url("bg.5c5e74e2.jpg");
+}
+
+.nothing__content {
+  width: 570px;
+  margin: 0 auto;
+  padding-top: 48px;
+}
+
+.nothing__content__title {
+  color: #fff;
+  text-align: center;
+  font-family: Barlow, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.nothing__content__text {
+  color: #fff;
+  text-align: center;
+  margin-top: 6px;
+  font-family: Barlow, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.nothing__content__form {
+  margin-top: 24px;
+}
+
+.nothing__content__form__inp {
+  color: #fff;
+  width: 232px;
+  background-color: #1c1c1c00;
+  border: 2px solid #ffffffb3;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-family: Barlow, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.nothing__content__form__inp:focus {
+  border: 2px solid #ffffffb3;
+}
+
+.nothing__content__form__inp::-ms-clear {
+  width: 0;
+  height: 0;
+}
+
+input::-webkit-input-placeholder {
+  color: #ffffffb3;
+}
+
+input {
+  outline: none;
+}
+
+.nothing__content__form__btn {
+  color: #222;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #ffffffd9;
+  border: none;
+  border-radius: 3px;
+  margin-left: 15px;
+  padding: 12px 30px;
+  font-family: Barlow, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  transition: background-color .1s;
+}
+
+.nothing__content__form__btn:hover {
+  background-color: #fff;
+}
+
+@media screen and (min-width: 420px) and (max-width: 1023px) {
+  .nothing {
+    height: 378px;
+  }
+
+  .nothing__content {
+    width: 390px;
+  }
+
+  .nothing__content__form {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 24px;
+    display: flex;
+  }
+
+  .nothing__content__form__btn {
+    margin-top: 12px;
+    margin-left: 0;
+  }
+}
+
+/*# sourceMappingURL=music.ff22ca6d.css.map */

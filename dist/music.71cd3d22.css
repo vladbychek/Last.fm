@@ -1,0 +1,73 @@
+.look {
+  width: 100%;
+  height: 210px;
+  background: url("bg2.e075452f.jpg") center / cover no-repeat;
+  margin-bottom: 96px;
+}
+
+.look__content {
+  width: 570px;
+  margin: 0 auto;
+  padding: 48px 30px 60px;
+}
+
+.look__content__title {
+  color: #fff;
+  text-align: center;
+  font-family: Barlow, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.look__search {
+  cursor: pointer;
+  color: #ffffffb3;
+  height: 48px;
+  width: 48px;
+  background-color: #1c1c1c00;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  display: flex;
+}
+
+.look__btn {
+  width: 48px;
+  height: 48px;
+  background-color: #1c1c1c00;
+  border: none;
+  position: relative;
+  right: 50px;
+}
+
+.look__content__form__inp {
+  color: #fff;
+  width: 526px;
+  background-color: #1c1c1c00;
+  border: 2px solid #ffffffb3;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-family: Barlow, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.look__content__form__inp:focus {
+  border: 2px solid #ffffffb3;
+}
+
+.form {
+  justify-content: center;
+  margin-top: 24px;
+  display: flex;
+}
+
+@media screen and (min-width: 420px) and (max-width: 1023px) {
+  .look__content {
+    width: 390px;
+    padding: 50px 0 0;
+  }
+}
+
+/*# sourceMappingURL=music.71cd3d22.css.map */

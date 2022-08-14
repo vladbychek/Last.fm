@@ -1,0 +1,122 @@
+.charts {
+  width: 1170px;
+  margin: 0 auto;
+  padding-bottom: 48px;
+}
+
+.charts__title {
+  text-align: center;
+  color: #222;
+  margin-top: 36px;
+  font-family: Barlow, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.charts__separator {
+  width: 50px;
+  border-bottom: 3px solid #b90000;
+  margin: 0 auto;
+  padding-top: 18px;
+}
+
+.charts__blocks {
+  flex-wrap: wrap;
+  column-gap: 30px;
+  margin-top: 24px;
+  display: flex;
+}
+
+.charts__blocks__block__link {
+  text-decoration: none;
+}
+
+.chartsbgimg {
+  width: 270px;
+  height: 270px;
+  background-size: cover;
+}
+
+.charts__blocks__block {
+  width: 270px;
+  height: 270px;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Barlow, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  transition: all .1s linear;
+  display: flex;
+}
+
+.charts__blocks__block:hover {
+  text-decoration: underline;
+}
+
+.textchartsone:hover {
+  background-color: #a2694e33;
+}
+
+.chartsbgone {
+  background-image: linear-gradient(to top, #b05136b3, #b05136b3), url("one.00bf706f.jpg");
+}
+
+.textchartstwo:hover {
+  background-color: #966e4933;
+}
+
+.chartsbgtwo {
+  background-image: linear-gradient(to top, #966e49b3, #966e49b3), url("two.71660b1b.jpg");
+}
+
+.textchartsthree:hover {
+  background-color: #334a4b33;
+}
+
+.chartsbgthree {
+  background-image: linear-gradient(to top, #334a4bb3, #334a4bb3), url("three.b9885664.gif");
+}
+
+.textchartsfour:hover {
+  background-color: #76767633;
+}
+
+.chartsbgfour {
+  background-image: linear-gradient(to top, #767676b3, #767676b3), url("four.f04e151a.jpg");
+}
+
+@media screen and (min-width: 990px) and (max-width: 1326px) {
+  .charts {
+    width: 940px;
+  }
+
+  .charts__blocks {
+    column-gap: 20px;
+  }
+
+  .chartsbgimg, .charts__blocks__block {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 1023px) {
+  .charts {
+    width: 390px;
+  }
+
+  .chartsbgimg, .charts__blocks__block {
+    width: 190px;
+    height: 190px;
+  }
+
+  .charts__blocks {
+    gap: 20px 10px;
+  }
+}
+
+/*# sourceMappingURL=music.93cb1163.css.map */
