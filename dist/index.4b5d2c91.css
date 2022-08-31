@@ -7,7 +7,7 @@
 .last__title__title {
   text-align: center;
   color: #222;
-  font-family: Barlow, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
@@ -54,7 +54,7 @@
 
 .last__blocks__album__name, .last__blocks__album__nick {
   color: #222;
-  font-family: Barlow, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 14px;
   font-weight: 700;
   line-height: 21px;
@@ -67,7 +67,7 @@
 .last__blocks__album__date {
   color: #999;
   margin-top: 3px;
-  font-family: Barlow, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 12px;
   font-weight: 400;
   line-height: 21px;
@@ -117,7 +117,7 @@
 .last__show-nem-rel {
   justify-content: center;
   margin-top: 26px;
-  font-family: Barlow, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;

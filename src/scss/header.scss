@@ -5,7 +5,7 @@
 .header{
     width: 100%;
     height: 60px;
-    background-color: black;
+    background-color: purple;
     margin: 0 auto;display: flex;
     position: fixed;
     z-index: 100;
@@ -54,7 +54,7 @@
     display: flex;
     color: #C0C0C0;
     font-size: 15px;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Inconsolata', monospace;
     align-items: center;
     line-height: 40px;
 }
@@ -75,7 +75,7 @@
 .header__right-menu{
     display: flex;
     align-items: center;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Inconsolata', monospace;
     padding-left: 15px;
     line-height: 40px;
 }

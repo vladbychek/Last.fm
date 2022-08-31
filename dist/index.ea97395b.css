@@ -7,7 +7,7 @@
 .popular__title {
   justify-content: center;
   padding-top: 49px;
-  font-family: Barlow, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
@@ -56,7 +56,7 @@
 }
 
 .popular__blocks__block__genre__type {
-  font-family: Barlow, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 12px;
   line-height: 18px;
 }
@@ -78,7 +78,7 @@
 
 .popular__name {
   color: #222;
-  font-family: Barlow, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 14px;
   font-weight: 700;
   line-height: 21px;
@@ -86,7 +86,7 @@
 
 .popular__nickname {
   color: #222;
-  font-family: Barlow, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 14px;
   line-height: 21px;
 }
@@ -136,7 +136,7 @@
   visibility: hidden;
   justify-content: center;
   margin-top: 26px;
-  font-family: Barlow, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;

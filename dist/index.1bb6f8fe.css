@@ -7,7 +7,7 @@
 .famous__title-title {
   justify-content: center;
   padding-bottom: 18px;
-  font-family: Barlow, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
@@ -66,7 +66,7 @@
   cursor: pointer;
   flex-direction: column-reverse;
   padding: 0 20px 5px;
-  font-family: Barlow, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
@@ -84,7 +84,7 @@
 .famous__big-blocks__big-blockone__text__smalltext {
   color: #fff;
   padding: 5px 20px 0;
-  font-family: Barlow, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 14px;
   line-height: 21px;
 }
@@ -123,7 +123,7 @@
   border: 1px solid #fff9;
   border-radius: 3px;
   padding: 5px 15px 6px;
-  font-family: Barlow, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 12px;
   font-weight: 700;
   line-height: 28px;
@@ -206,7 +206,7 @@
 
 .fam__bot__text {
   padding: 5px 0 0 13px;
-  font-family: Barlow, sans-serif;
+  font-family: Inconsolata, monospace;
 }
 
 .fam__bot__text__title {
@@ -263,7 +263,7 @@
 
 .famous__small-blocks__block__name {
   margin-top: 12px;
-  font-family: Barlow, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 14px;
   font-weight: 700;
   line-height: 21px;
@@ -292,7 +292,7 @@
 }
 
 .famous__small-blocks__block__genre__type {
-  font-family: Barlow, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 12px;
   line-height: 18px;
 }
