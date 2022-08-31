@@ -141,7 +141,13 @@
   }
 }
 
-@media screen and (min-width: 420px) and (max-width: 1023px) {
+@media screen and (min-width: 990px) and (max-width: 1023px) {
+  .head__tel__adapt__spsp, .header__adapt__sp {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 989px) {
   .head__tel__adapt {
     display: none;
   }
