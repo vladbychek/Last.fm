@@ -1,0 +1,203 @@
+.soon {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 50px 30px 36px;
+}
+
+.soon__title__title {
+  text-align: center;
+  color: #222;
+  font-family: Barlow, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.soon__title__separator {
+  width: 50px;
+  border-bottom: 3px solid #b90000;
+  margin: 0 auto;
+  padding-top: 18px;
+}
+
+.soon__blocks {
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 24px;
+  display: flex;
+}
+
+.soon__album__links {
+  flex-direction: column;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.soon__name__link, .soon__nick__link {
+  text-decoration: none;
+  display: inline;
+}
+
+.soon__name__link:hover, .soon__nick__link:hover {
+  text-decoration: underline;
+  display: inline;
+}
+
+.soon__name__link:visited, .soon__nick__link:visited, .soon__name__link:link, .soon__nick__link:link {
+  color: #222;
+}
+
+.soon__blocks__album__name {
+  margin-top: 12px;
+  margin-bottom: 2px;
+}
+
+.soon__blocks__album__name, .soon__blocks__album__nick {
+  color: #222;
+  font-family: Barlow, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.soon__blocks__album__nick {
+  font-weight: 400 !important;
+}
+
+.soon__blocks__album__date {
+  color: #999;
+  margin-top: 3px;
+  font-family: Barlow, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.soon__show-all {
+  justify-content: center;
+  margin-top: 26px;
+  font-family: Barlow, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  display: flex;
+}
+
+.soon__show-all__link {
+  color: #005399;
+  text-decoration: none;
+}
+
+.soon__show-all__link:hover {
+  text-decoration: underline;
+}
+
+.soon__show-all-icon {
+  padding-left: 8px;
+}
+
+.soon__album__card {
+  width: 170px;
+  height: 170px;
+  background: #000;
+  overflow: hidden;
+}
+
+.soon__album__img {
+  width: 170px;
+  background: #000;
+  transition: all .1s linear;
+  display: block;
+  overflow: hidden;
+}
+
+.soon__album__button {
+  color: #fff;
+  background: inherit;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: .6;
+  border: none;
+  border-radius: 50px;
+  font-size: 60px;
+  position: relative;
+  bottom: 115px;
+  left: 55px;
+}
+
+.soon__album__img:hover {
+  opacity: .8;
+}
+
+.soon__blocks__album:hover .soon__album__button {
+  visibility: visible;
+}
+
+.soon__album__button:hover {
+  opacity: .9;
+}
+
+@media screen and (min-width: 990px) and (max-width: 1326px) {
+  .soon {
+    width: 940px;
+    padding: 0 20px 36px;
+  }
+
+  .soon__album__card {
+    width: 140px;
+    height: 140px;
+  }
+
+  .soon__album__img {
+    width: 140px;
+  }
+
+  .soon__blocks {
+    gap: 20px;
+  }
+
+  .soon__adapt__sp {
+    font-size: 12px;
+  }
+
+  .soon__album__button {
+    font-size: 55px;
+    position: relative;
+    bottom: 102px;
+    left: 44px;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 989px) {
+  .soon {
+    width: 390px;
+    margin: 0 auto;
+    padding: 0 15px 36px;
+  }
+
+  .soon__tel__adapt__none {
+    display: none;
+  }
+
+  .soon__blocks {
+    gap: 15px;
+  }
+
+  .soon__album__card {
+    width: 187.5px;
+    height: 187.5px;
+  }
+
+  .soon__album__img {
+    width: 187.5px;
+  }
+
+  .soon__album__button {
+    font-size: 55px;
+    position: relative;
+    bottom: 125px;
+    left: 65px;
+  }
+}
+
+/*# sourceMappingURL=index.321a8f61.css.map */

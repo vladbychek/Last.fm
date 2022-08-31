@@ -385,7 +385,7 @@
   .interest {
     width: 940px;
     margin: 0 auto;
-    padding: 48px 10px;
+    padding: 48px 20px;
   }
 
   .interest__blocks__big-blockone {
@@ -460,7 +460,7 @@
   }
 }
 
-@media screen and (min-width: 420px) and (max-width: 989px) {
+@media screen and (min-width: 420px) and (max-width: 1023px) {
   .interest {
     width: 390px;
     padding: 48px 15px;

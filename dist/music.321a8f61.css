@@ -133,7 +133,7 @@
   visibility: visible;
 }
 
-.soon__album__button:hover {
+.soon__button:hover {
   opacity: .9;
 }
 
@@ -168,7 +168,7 @@
   }
 }
 
-@media screen and (min-width: 420px) and (max-width: 989px) {
+@media screen and (min-width: 420px) and (max-width: 1023px) {
   .soon {
     width: 390px;
     margin: 0 auto;

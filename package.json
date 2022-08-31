@@ -1,17 +1,17 @@
 {
-  "name": "music",
+  "name": "last.fm",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/music.html --open",
-    "build": "parcel build src/music.html "
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html "
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
     "parcel": "^2.7.0",
-    "sass": "^1.54.4"
+    "sass": "^1.54.7"
   }
 }

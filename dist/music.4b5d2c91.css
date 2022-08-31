@@ -140,7 +140,7 @@
 @media screen and (min-width: 990px) and (max-width: 1326px) {
   .last {
     width: 940px;
-    padding: 48px 10px;
+    padding: 48px 20px;
   }
 
   .last__blocks {
@@ -165,7 +165,7 @@
   }
 }
 
-@media screen and (min-width: 420px) and (max-width: 989px) {
+@media screen and (min-width: 420px) and (max-width: 1023px) {
   .last {
     width: 390px;
     margin: 0 auto;
